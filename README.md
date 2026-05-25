@@ -1,3 +1,13 @@
+<div align="center">
+  <h1>Robust Password Manager<br>（堅牢パスワード管理ツール）</h1>
+  <p>完全ローカル管理・ハイブリッド暗号方式（RSA + AES）を採用した<br>高セキュリティなJavaFXデスクトップアプリケーション</p>
+
+  [![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.java.net/)
+  [![JavaFX](https://img.shields.io/badge/JavaFX-17.0.2-FF9900?style=for-the-badge)](https://openjfx.io/)
+  [![Maven](https://img.shields.io/badge/Maven-3.6%2B-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+</div>
+
 ##  製品概要
 
 本製品は、**ハイブリッド暗号方式（RSAおよびAES）** を採用した、スタンドアロン型のパスワード管理アプリケーションです。
