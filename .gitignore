@@ -1,0 +1,35 @@
+# === IntelliJ IDEA / Eclipse / VS Code (IDE settings) ===
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.vscode/
+
+# === Build Artifacts ===
+target/
+build/
+.gradle/
+*.class
+*.jar
+*.war
+
+# === OS temporary files ===
+.DS_Store
+Thumbs.db
+
+# === Application Specific Sensitive Files (パスワード管理ツールの機密データ) ===
+# カレントディレクトリに生成される場合を想定した除外
+private_key.bin
+public_key.txt
+salt.bin
+recovery_key.bin
+passwords.json
+
+# ユーザーホーム以下に保存されるため通常はコミットされませんが、念のためプロジェクト内への混入を防ぐ設定
+.rsa_password_tool/
+**/private_key.bin
+**/public_key.txt
+**/salt.bin
+**/recovery_key.bin
+**/passwords.json
